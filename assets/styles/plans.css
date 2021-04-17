@@ -1,0 +1,94 @@
+#plans{
+    background: #333;
+    height: auto;
+    float: left;
+    padding-bottom: 55px;
+}
+.card-plans{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
+}
+
+.name-plan{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    border-top-right-radius: 4px;
+    background: #393939;
+    border-top-left-radius: 4px;
+}
+.setup{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+.price{
+    width: 100%;
+    height: 55px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+#color1{
+    background: linear-gradient(to top left,#3ab0ff, #6ecccc);
+}
+
+.content-price{
+    margin: 0 auto;
+    width: auto;
+    padding-top: 12px;
+    display: table;
+}
+.currency{
+    float: left;
+    font-size: 0.8em;
+}
+.value{
+    float: left;
+    font-family: inter-black;
+    font-size: 1.2em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.period{
+
+    font-size: 0.7em;
+    text-align: center;
+
+}
+.fixed-text{
+    padding-top: 40px;
+    font-size: 0.9em;
+}
+#plan-blue{
+    background: linear-gradient(to top left,#3ab0ff, #6ecccc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+#plan-green{
+    color: #d0737b;
+}
+.name-text{
+    padding-top: 10px;
+    font-size: 1.1em;
+    font-family: inter-bold;
+}
+.item{
+    margin-bottom: 15px;
+}
+.item img{
+    width: 10px;
+    float: left;
+    padding-right: 10px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.title-setup{
+    font-size: 0.8em;
+    color: #d2d2d2;
+    width: 70%;
+    display: inline-block;
+}

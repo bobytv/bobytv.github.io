@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "inter-regular";
+    src: url("../media/fonts/Inter-Regular.ttf");
+}
+@font-face {
+    font-family: "inter-black";
+    src: url("../media/fonts/Inter-Black.ttf");
+}
+@font-face {
+    font-family: "inter-light";
+    src: url("../media/fonts/Inter-Light.ttf");
+}
+@font-face {
+    font-family: "inter-bold";
+    src: url("../media/fonts/Inter-Bold.ttf");
+}
+
+html,body,main{
+    margin: 0;
+    padding: 0px;
+    color: #fff;
+    font-family: inter-regular;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+  }
+nav{
+
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index: 6;
+
+}
+#menu{
+
+    width: auto;
+    height: 30px;
+    padding: 20px;
+
+}
+#menu-icon{
+
+    width: 30px;
+    padding-right: 8px;
+    float: left;
+
+}
+#menu-text{
+
+    display: none;
+    width: auto;
+
+}
+#container-options-menu{
+    display: none;
+    position: fixed;
+    width: 60%;
+    height: auto;
+    background:#202020;
+    z-index: 6;
+    left: 4%;
+    top: 8%;
+    border-radius: 6px;
+    max-width: 268px;
+}
+.options-menu {
+    padding: 8%;
+    display: block;
+}
+.screen{
+
+    position: relative;
+    width: 100%;
+    height: auto;
+
+}
+#gridchannel{
+    background: #fff000;
+    height: auto;
+    float: left;
+}
+#util{
+    background: #fff000;
+    height: auto;
+    float: left;
+}
+#whatiptv{
+    background: #333333;
+    float: left;
+    padding-bottom: 55px;
+}
+.container-screen{
+    position: relative;
+    margin: 0 auto;
+    width: 92%;
+    height: auto;
+    padding-top: 55px;
+}
+.screen-title{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.screen-title h1{
+    margin: 0 auto;
+    text-align: center;
+}
+.content-screen{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.container{
+
+    margin: 0 auto;
+    width: 85%;
+    height: auto;
+    z-index: 5;
+    padding-bottom: 20px;
+    
+}
+.card{
+    background: #333333;
+    width: 86%;
+    padding: 7%;
+    border-radius: 4px;
+    box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
+}
+.title-card {
+    padding-bottom: 15px;
+    font-family: inter-bold;
+}
+.content-card{
+    color: #d2d2d2;
+}
+.buttont{
+    background-image: linear-gradient(to top left,#3ab0ff, #6ecccc);
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    font-family: inter-regular;
+    border-radius: 4px;
+    opacity: 1;
+    transition: opacity 2s;
+}
+#zap{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    z-index: 7;
+    display: block;
+    bottom: 20px;
+    right: 20px;
+}
+#downloads {
+    background: #333333;
+    float: left;
+    padding-bottom: 55px;
+    height: auto;
+}

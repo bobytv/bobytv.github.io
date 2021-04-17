@@ -1,0 +1,25 @@
+#util{
+    background: #333333;
+    padding-bottom: 70px;
+}
+
+#util_content-screen .card {
+    display: table;
+    max-width: 680px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.iconcardextern{
+    display: table;
+    float: left;
+    width: 22px;
+    padding: 15px;
+    margin-top: 3%;
+}
+.util_content-card{
+    float: left;
+    padding: 10px;
+    padding-top: 14px;
+    color: #d2d2d2;
+    width: 70%;
+}

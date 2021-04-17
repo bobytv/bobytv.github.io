@@ -1,0 +1,46 @@
+#downloads-subcontent1, #downloads-subcontent2{
+
+    background: none;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+#downloads-subcontent1 p, #downloads-subcontent2 p{
+    color: #d2d2d2;
+    font-family: inter-light;
+    padding: 0px;
+    margin: 0;
+    padding-bottom: 0px
+}
+
+#downloads-container-screen{
+    padding-top: 55px;
+}
+
+.iconcard{
+    display: table;
+    width: 52px;
+    float: left;
+}
+#icondownload{
+    display: table;
+    float: right;
+    height: 50px;
+}
+#downloads_content-card{
+    float: left;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 152px;
+    padding-top: 14px;
+}
+#downloads_content-screen .card{
+    display: table;
+    max-width: 680px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
