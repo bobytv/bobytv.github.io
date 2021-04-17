@@ -10,6 +10,22 @@
         padding-left: 25px;
     }
 }
+@media only screen and (orientation: portrait) and (min-height: 530px) {
+    #container-logo{
+        padding-top: 15%;
+    }
+}
+@media only screen and (orientation: portrait) and (min-height: 560px) {
+    #container-logo{
+        padding-top: 20%;
+    }
+}
+@media only screen and (orientation: portrait) and (min-height: 630px) {
+    #container-logo{
+        padding-top: 25%;
+    }
+}
+
 @media only screen and (orientation: portrait) and (min-width: 838px) {
     #container-logo {
         padding-top: 10%;
@@ -44,11 +60,12 @@
 
 }
 
-@media only screen and (orientation: landscape) and (min-height: 320px) {
+@media only screen and (orientation: landscape) and (min-height: 280px) {
     
     #container-logo{
         padding-top: 7%;
         width: 100%;
+        max-width: 160px;
     }
     .buttont {
         max-width: 700px;
@@ -97,25 +114,50 @@
 
 }
 
-@media only screen and (orientation: landscape) and (min-height: 443px) {
+@media only screen and (orientation: landscape) and (min-height: 420px) {
     
-    #container-logo{
-        padding-top: 5%;
-        width: 100%;
-    }
-
     #container-more{
         display: block;
     }
 
 }
-@media only screen and (orientation: landscape) and (min-height: 602px) {
+
+@media only screen and (orientation: landscape) and (min-height: 443px) {
+    
     #container-logo{
-        padding-top: 7%;
-        width: 100%;
+        padding-top: 10%;
     }
 
 }
+
+@media only screen and (orientation: landscape) and (min-height: 492px) {
+    
+    #container-logo{
+        max-width: 200px;
+    }
+
+}
+
+@media only screen and (orientation: landscape) and (min-height: 580px) {
+    
+    #container-logo{
+        padding-top: 10%;
+        max-width: 240px;
+    }
+
+
+}
+
+@media only screen and (orientation: landscape) and (min-height: 632px) {
+    
+    #container-logo{
+        padding-top: 12%;
+        max-width: 280px;
+    }
+
+
+}
+
 @media only screen and (orientation: landscape) and (min-width: 700px) {
 
     .item{
@@ -133,9 +175,6 @@
 }
 @media only screen and (orientation: landscape) and (min-width: 752px) {
 
-    #primary{
-        margin-right: 9%;
-    }
     .card .content-card{
         font-size: 1.3em;
     }

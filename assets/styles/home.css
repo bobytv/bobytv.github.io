@@ -5,7 +5,8 @@
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    height: 100%;
+    height: auto;
+    min-height: 100%;
 }
 
 .container #callingtext{
@@ -20,8 +21,8 @@
 #container-logo{
     width: 100%;
     margin: 0 auto;
-    padding-top: 8%;
-    max-width: 270px;
+    padding-top: 10%;
+    max-width: 240px;
 }
 #container-logo img{
     width: 100%
@@ -34,7 +35,7 @@
 #container-more{
     position: absolute;
     width: 152px;
-    bottom: 20px;
+    bottom: 15px;
     text-align: center;
     left: 50%;
     margin-left: -76px;
