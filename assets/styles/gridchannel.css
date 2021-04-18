@@ -52,6 +52,7 @@
     overflow-y: hidden;
     margin-bottom: 40px;
     padding-left: 6%;
+    z-index: 7;
 }
 .imgs-carousel{
     display: inline;

@@ -22,6 +22,7 @@ html,body,main{
     font-family: inter-regular;
     scroll-behavior: smooth;
     height: 100%;
+    width: 100%;
 }
 a {
     color: inherit;
@@ -55,28 +56,14 @@ nav{
     width: auto;
 
 }
-#container-options-menu{
-    display: none;
-    position: fixed;
-    width: 60%;
-    height: auto;
-    background:#202020;
-    z-index: 6;
-    left: 4%;
-    top: 8%;
-    border-radius: 6px;
-    max-width: 268px;
-}
 .options-menu {
     padding: 8%;
     display: block;
 }
 .screen{
-
     position: relative;
     width: 100%;
     height: auto;
-
 }
 #gridchannel{
     background: #fff000;
@@ -162,4 +149,51 @@ nav{
     float: left;
     padding-bottom: 55px;
     height: auto;
+}
+.container-options-teste{
+    position: fixed;
+    width: 268px;
+    height: 100%;
+    background:#202020;
+    z-index: 9;
+    left: 50%;
+    top: 0px;
+    border-radius: 6px;
+    max-width: 268px;  
+    margin-left: -134px;
+    overflow-y: scroll;
+}
+#light-dark{
+    position: fixed;
+    background: #333333;
+    width: 100%;
+    height: 100%;
+    z-index: 8;
+}
+.options-menu-title {
+    padding: 8%;
+    margin: 0 auto;
+    display: table;
+    background:#393939;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#content-tester{
+    display: none;
+}
+.options-tester {
+    padding: 8%;
+    display: block;
+}
+#container-options-menu{
+    display: none;
+    position: fixed;
+    width: 60%;
+    height: auto;
+    background:#202020;
+    z-index: 6;
+    left: 4%;
+    top: 8%;
+    border-radius: 6px;
+    max-width: 268px;
 }
